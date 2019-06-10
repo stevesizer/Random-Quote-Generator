@@ -3,10 +3,8 @@ Treehouse FSJS Techdegree:
 project 1 - A Random Quote Generator
 ******************************************/
 
-// Study guide for this project - https://drive.google.com/file/d/1s5grutGuQFwJcQP8bFwEI69Q8FCkGdDk/view?usp=sharing
-
+// Attach a interval of 10secs to the window to printQuote automatically
 var interId = window.setInterval(printQuote, 10000)
-
 
 /*** 
   Create an array of funny quote objects that will be used to display
